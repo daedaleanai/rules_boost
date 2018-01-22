@@ -608,6 +608,10 @@ boost_library(
 )
 
 boost_library(
+    name = "phoenix",
+)
+
+boost_library(
     name = "pool",
 )
 
