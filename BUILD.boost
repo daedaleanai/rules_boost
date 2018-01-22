@@ -399,9 +399,24 @@ boost_library(
 boost_library(
     name = "graph",
     deps = [
+        ":algorithm",
+        ":concept_check",
+        ":detail",
+        ":functional",
         ":foreach",
+        ":iterator",
+        ":math",
+        ":mpl",
+        ":multi_index",
+        ":parameter",
         ":pending",
         ":property_map",
+        ":random",
+        ":range",
+        ":static_assert",
+        ":tuple",
+        ":type_traits",
+        ":utility",
     ],
 )
 
