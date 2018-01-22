@@ -397,6 +397,10 @@ boost_library(
 )
 
 boost_library(
+    name = "graph",
+)
+
+boost_library(
     name = "property_tree",
     deps = [
         ":any",
