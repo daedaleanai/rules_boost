@@ -400,6 +400,11 @@ boost_library(
     name = "graph",
     hdrs = [
         "boost/any.hpp",
+        "boost/assert.hpp",
+        "boost/config.hpp",
+        "boost/integer.hpp",
+        "boost/intrusive_ptr.hpp",
+        "boost/limits.hpp",
     ],
     deps = [
         ":algorithm",
