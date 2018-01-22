@@ -612,6 +612,10 @@ boost_library(
 )
 
 boost_library(
+    name = "pending",
+)
+
+boost_library(
     name = "phoenix",
 )
 
