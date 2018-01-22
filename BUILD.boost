@@ -608,6 +608,10 @@ boost_library(
 )
 
 boost_library(
+    name = "pool",
+)
+
+boost_library(
     name = "none",
     hdrs = [
         "boost/none_t.hpp",
