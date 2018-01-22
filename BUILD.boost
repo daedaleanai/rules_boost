@@ -398,9 +398,13 @@ boost_library(
 
 boost_library(
     name = "graph",
+    hdrs = [
+        "any.hpp",
+    ],
     deps = [
         ":algorithm",
         ":concept_check",
+        ":config",
         ":detail",
         ":functional",
         ":foreach",
@@ -413,7 +417,10 @@ boost_library(
         ":property_map",
         ":random",
         ":range",
+        ":serialization",
+        ":spirit",
         ":static_assert",
+        ":tti",
         ":tuple",
         ":type_traits",
         ":utility",
@@ -1107,6 +1114,10 @@ boost_library(
         ":type_traits",
         ":utility",
     ],
+)
+
+boost_library(
+    name = "tti",
 )
 
 boost_library(
